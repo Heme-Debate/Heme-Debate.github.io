@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Brandon Deeb</title>
+    <link>/</link>
+    <description>Recent content on Brandon Deeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>F1 Project</title>
+      <link>/project/project1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/project/project1/</guid>
+      <description>Brandon Deeb (btd543)
+And away we go! Loading stuff up.
+library(tidyverse) library(dplyr) getwd() ## [1] &amp;quot;/stor/home/btd543/Website/content/project&amp;quot; races &amp;lt;- read.csv(&amp;quot;races.csv&amp;quot;) qualifying &amp;lt;- read.csv(&amp;quot;qualifying.csv&amp;quot;) results &amp;lt;- read.csv(&amp;quot;results.csv&amp;quot;) lap_times &amp;lt;- read.csv(&amp;quot;lap_times.csv&amp;quot;) driver_standings &amp;lt;- read.csv(&amp;quot;driver_standings.csv&amp;quot;) constructor_standings &amp;lt;- read.csv(&amp;quot;constructor_standings.csv&amp;quot;) constructor_results &amp;lt;- read.csv(&amp;quot;constructor_results.csv&amp;quot;) drivers &amp;lt;- read.csv(&amp;quot;drivers.csv&amp;quot;) constructors &amp;lt;- read.csv(&amp;quot;constructors.csv&amp;quot;) status &amp;lt;- read.csv(&amp;quot;status.csv&amp;quot;) In this portion, I am cleaning up data; removing anything prior to 2017 because I only started following F1 after watching a documentary about the 2017 season.</description>
+    </item>
+    
+    <item>
+      <title>Project Two</title>
+      <link>/project/project2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/project/project2/</guid>
+      <description>Brandon Deeb (btd543)
+And away we go! Loading stuff up. This is data was obtained from Kraggle and is essentially a breakdown of the Melbourne housing market, which has ‘cooled down’ recently. I had a few other ideas in mind before this one, such as pitching in professional baseball, but it turns out sometimes there can actually be too much data: something I had never considered. But, this dataset is really nice!</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/</guid>
+      <description> Check out some of my coding projects below:
+ Wrangling &amp;amp; Exploratory Data Analysis
+ Modeling, Inference, Prediction
+  -- </description>
+    </item>
+    
+    <item>
+      <title>Resume</title>
+      <link>/resume/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resume/</guid>
+      <description>    </description>
+    </item>
+    
+  </channel>
+</rss>
