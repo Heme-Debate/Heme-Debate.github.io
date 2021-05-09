@@ -1,0 +1,30 @@
+---
+title: This Is The Post
+author: Who Else??
+date: '2021-05-09'
+slug: this-is-the-post
+categories: []
+tags: []
+description: ''
+---
+
+RStudio is an incredibly useful tool for data analysis and seems to be such a powerhouse in the field of science. Virtually anytime I talk with other scientists about their work or converse over other papers, it someone comes up that the data analysis was performed in R! This makes sense, as it's a really intuitive, user-friendly interface. After working with it for a total of a year now (woah; 25% of my college career was spent with my little pal, R <3), it seemed to be very much its own thing. I felt like RStudio was good for analyzing data and finding associations, but not as the typical "coding language" like a CS major might use. As is usually the case, it turns out computers are...*better* at things than I thought they would be. With a cool little package called *reticulate*, we can use RStudio to talk to other languages. Computers are inherently multilingual?? What??? I can't think of many vast dichotomies in communication in my life to use since I really only speak one language, but a common example that comes to mind is in team/department oriented work! While the goal is the same or there might be some key member bridging the teams/departments, overall they're still really divided. And sometimes, this can get really weird and people can get cliquey. So, we need someone to bridge the gap. How do you distinguish John from the Quality Control department from John in Manufacturing? Well typically, you might just call him (get this) *John from Quality Control*. And that's kinda just how reticulate works! We can call upon two different items at the same time from both "departments" just by indicating which "department" we want to access. So, we distinguish whether we are accessing an R save or a Python save and then it'll return what we need! So impressive. 
+
+```{R}
+library(reticulate)
+
+John <- "John from Quality Control"
+```
+
+And then 
+
+```{python}
+John = "John from Manufacturing"
+print(r.John,John)
+```
+
+![](/post/2021-05-09-this-is-the-post_files/Python.jpg)
+
+And now we've called on both Johns! Great work Python and RStudio. Best buddies. It's been super interesting to see how valuable R is as a tool for analysis and the cool things it can do, such as building websites ;). I always wrote off coding as something way too daunting and difficult for me to achieve from a very early age, but using R has really changed that. I'm able to view R as a tool in my repertoire now for examining datasets and seeing what I can find rather than just some place I type things into to get homework done. Especially after the first project, I sent my information and findings around to some friends who were really into it! I can see the thrill and excitement that inherently comes from finding these things! Like, "AHHH it's crazy!! Can we really significantly prove that people eat one menu item over another on a particular day??" I don't know!! But I really wanna get some data and find out. Thank you for exposing us (me) to this course information. This is such a valuable course and I felt it made my last semester at UT a worthwhile one, whether we were on campus or not. Hope you have a great summer and an excellent return to campus next semester, Professor. Thank you for everything. Brandon: signing off. 
+
+

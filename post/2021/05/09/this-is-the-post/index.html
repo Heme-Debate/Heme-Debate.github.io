@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Brandon Deeb" />
+    
+    <link rel="shortcut icon" type="image/x-icon" href="../../../../../img/favicon.ico">
+    <title>This Is The Post</title>
+    <meta name="generator" content="Hugo 0.83.1" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../../../../../css/main.css" />
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,200bold,400old" />
+    
+    <!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+    
+  </head>
+
+  <body>
+    <div id="wrap">
+      
+      <nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="../../../../../"><i class="fa fa-home"></i></a>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="navbar-collapse collapse" id="navbar">
+      <ul class="nav navbar-nav navbar-right">
+      
+        
+        <li><a href="../../../../../post/">BLOG</a></li>
+        
+        <li><a href="../../../../../projects/">PROJECTS</a></li>
+        
+        <li><a href="../../../../../resume/">RESUME</a></li>
+        
+      
+      </ul>
+    </div>
+  </div>
+</nav>
+
+      <div class="container">
+        <div class="blog-post">
+          <h3>
+            <strong><a href="../../../../../post/2021/05/09/this-is-the-post/">This Is The Post</a></strong>
+          </h3>
+        </div>
+ 
+<div class="blog-title">
+          <h4>
+         May 9, 2021 
+            &nbsp;&nbsp;
+            
+          </h4>
+        </div>
+
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="blogpost">
+              
+
+
+<p>RStudio is an incredibly useful tool for data analysis and seems to be such a powerhouse in the field of science. Virtually anytime I talk with other scientists about their work or converse over other papers, it someone comes up that the data analysis was performed in R! This makes sense, as it’s a really intuitive, user-friendly interface. After working with it for a total of a year now (woah; 25% of my college career was spent with my little pal, R &lt;3), it seemed to be very much its own thing. I felt like RStudio was good for analyzing data and finding associations, but not as the typical “coding language” like a CS major might use. As is usually the case, it turns out computers are…<em>better</em> at things than I thought they would be. With a cool little package called <em>reticulate</em>, we can use RStudio to talk to other languages. Computers are inherently multilingual?? What??? I can’t think of many vast dichotomies in communication in my life to use since I really only speak one language, but a common example that comes to mind is in team/department oriented work! While the goal is the same or there might be some key member bridging the teams/departments, overall they’re still really divided. And sometimes, this can get really weird and people can get cliquey. So, we need someone to bridge the gap. How do you distinguish John from the Quality Control department from John in Manufacturing? Well typically, you might just call him (get this) <em>John from Quality Control</em>. And that’s kinda just how reticulate works! We can call upon two different items at the same time from both “departments” just by indicating which “department” we want to access. So, we distinguish whether we are accessing an R save or a Python save and then it’ll return what we need! So impressive.</p>
+<pre class="r"><code>library(reticulate)
+
+John &lt;- &quot;John from Quality Control&quot;</code></pre>
+<p>And then</p>
+<pre class="python"><code>John = &quot;John from Manufacturing&quot;
+print(r.John,John)</code></pre>
+<pre><code>## John from Quality Control John from Manufacturing</code></pre>
+<p><img src="../../../../../post/2021-05-09-this-is-the-post_files/Python.jpg" /></p>
+<p>And now we’ve called on both Johns! Great work Python and RStudio. Best buddies. It’s been super interesting to see how valuable R is as a tool for analysis and the cool things it can do, such as building websites ;). I always wrote off coding as something way too daunting and difficult for me to achieve from a very early age, but using R has really changed that. I’m able to view R as a tool in my repertoire now for examining datasets and seeing what I can find rather than just some place I type things into to get homework done. Especially after the first project, I sent my information and findings around to some friends who were really into it! I can see the thrill and excitement that inherently comes from finding these things! Like, “AHHH it’s crazy!! Can we really significantly prove that people eat one menu item over another on a particular day??” I don’t know!! But I really wanna get some data and find out. Thank you for exposing us (me) to this course information. This is such a valuable course and I felt it made my last semester at UT a worthwhile one, whether we were on campus or not. Hope you have a great summer and an excellent return to campus next semester, Professor. Thank you for everything. Brandon: signing off.</p>
+
+            
+        <hr>         <div class="related-posts">
+                <h5>Related Posts</h5>
+                
+              </div> 
+            </div>
+          </div>
+
+   <hr>  <div class="disqus">
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+
+    (function() {
+      
+      
+      if (window.location.hostname == "localhost")
+        return;
+
+      var disqus_shortname = '';
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div> 
+        </div>
+      </div>
+    </div>
+
+    
+    <footer>
+  <div id="footer">
+    <div class="container">
+      <p class="text-muted">&copy; All rights reserved. Powered by <a href="https://gohugo.io/">Hugo</a> and
+      <a href="http://www.github.com/nurlansu/hugo-sustain/">sustain</a> with ♥</p>
+    </div>
+  </div>
+</footer>
+<div class="footer"></div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="../../../../../js/docs.min.js"></script>
+<script src="../../../../../js/main.js"></script>
+
+<script src="../../../../../js/ie10-viewport-bug-workaround.js"></script>
+
+
+    
+  </body>
+</html>

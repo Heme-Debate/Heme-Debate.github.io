@@ -6,14 +6,14 @@
     <description>Recent content in Posts on Brandon Deeb</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 08 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 09 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Posted Up </title>
-      <link>/post/2021/05/08/posted-up/</link>
-      <pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate>
+      <title>This Is The Post</title>
+      <link>/post/2021/05/09/this-is-the-post/</link>
+      <pubDate>Sun, 09 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>/post/2021/05/08/posted-up/</guid>
-      <description></description>
+      <guid>/post/2021/05/09/this-is-the-post/</guid>
+      <description>RStudio is an incredibly useful tool for data analysis and seems to be such a powerhouse in the field of science. Virtually anytime I talk with other scientists about their work or converse over other papers, it someone comes up that the data analysis was performed in R! This makes sense, as it’s a really intuitive, user-friendly interface. After working with it for a total of a year now (woah; 25% of my college career was spent with my little pal, R &amp;lt;3), it seemed to be very much its own thing.</description>
     </item>
     
   </channel>

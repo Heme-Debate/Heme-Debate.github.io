@@ -60,7 +60,7 @@
  
 <div class="blog-title">
           <h4>
-         January 1, 0001 
+         May 8, 2021 
             &nbsp;&nbsp;
             
           </h4>
@@ -360,11 +360,11 @@ samp_distn &lt;- replicate(5000, {
 
 samp_distn %&gt;% t %&gt;% as.data.frame %&gt;% summarize_all(sd)</code></pre>
 <pre><code>##   (Intercept) BuildingArea_c   Rooms2   Rooms3   Rooms4   Rooms5   Rooms6
-## 1      125174       1242.276 142157.3 125663.8 126623.4 212796.5 274266.1
+## 1    125240.2        1241.78 141199.4 125543.4 127214.5 210031.3 268963.7
 ##   BuildingArea_c:Rooms2 BuildingArea_c:Rooms3 BuildingArea_c:Rooms4
-## 1              1651.409              1288.023              1289.254
+## 1              1635.524              1287.575              1276.007
 ##   BuildingArea_c:Rooms5 BuildingArea_c:Rooms6
-## 1              1888.649              2306.854</code></pre>
+## 1              1890.744              2315.187</code></pre>
 <p>First, I establish a binary variable from the categorical I’ve been using for experimentation this far, Rooms. I split it right down the middle, with 1-3 Rooms being the ‘Normal’ category and 4-6 being the ‘Family’ category. A logistical regression is then run to observe how the new Size variable is affected by a house’s Price and BuildingArea. Because this is a logodds operation, all estimates need to be exponentiated before they can be used to determine the odds of a home being Normal. For example, a home with a price 100,000 dollars above the average with a building area 90 square meters above the average has a log odds of -0.938 + 0.041 + 2.141 = 1.244. Exponentiating this gives an odds value of 3.469, which translates to a probability of (3.469)/(1+3.469). This means under these conditions, the probability of being a ‘Family’ sized house is 77.6%.</p>
 <pre class="r"><code>lol &lt;- lol %&gt;% mutate(Size = case_when(Rooms &gt; 3 ~ &quot;Family&quot;, 
     Rooms &lt;= 3 ~ &quot;Normal&quot;))

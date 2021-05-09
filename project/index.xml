@@ -5,11 +5,12 @@
     <link>/project/</link>
     <description>Recent content in Projects on Brandon Deeb</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language><atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-US</language>
+    <lastBuildDate>Sat, 08 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>F1 Project</title>
       <link>/project/project1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate>
       
       <guid>/project/project1/</guid>
       <description>Brandon Deeb (btd543)
@@ -20,7 +21,7 @@ library(tidyverse) library(dplyr) getwd() ## [1] &amp;quot;/stor/home/btd543/Web
     <item>
       <title>Project Two</title>
       <link>/project/project2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate>
       
       <guid>/project/project2/</guid>
       <description>Brandon Deeb (btd543)
